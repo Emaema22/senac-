@@ -1,16 +1,10 @@
 programa {
   funcao inicio() {
     //variaveis
-    inteiro idade
-    //Ler da tela a idade
-    escreva("Digite a sua idade:")
-    leia(idade)
-    //decisão
-    se(idade>=16){
-    escreva("Pode votar!")
-    }senao {
-      escreva("Não pode votar")
-    }
-
+    inteiro i
+     para (i = 1; i <= 10; i++){
+      se (i%2 == 0)
+       escreva("\n"+i)
+     }
   }
 }
